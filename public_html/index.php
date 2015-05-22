@@ -12,7 +12,7 @@ $client = MeasurementProtocolClient::factory(array(
     'ssl' => false // Enable/Disable SSL, default false
 ));
 $client->pageview(array(
-    'tid' => $config['tid'],
+    'tid' => $config['tracking-id'],
     'dh' => $config['hostname'],
     'dp' => $config['page'],
     'dt' => $config['title'],
