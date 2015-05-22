@@ -1,7 +1,9 @@
 {
+  "minimum-stability": "dev",
   "require": {
     "krizon/php-ga-measurement-protocol": "dev-master",
     "ramsey/uuid": "2.8.0",
-    "symfony/http-foundation": "2.6.6"
+    "symfony/http-foundation": "2.6.6",
+    "tybulewicz/referrer-spam-detector": "dev-master"
   }
 }
